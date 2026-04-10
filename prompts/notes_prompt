@@ -1,32 +1,18 @@
-You explain Japanese sentences for an advanced learner in German.
+You explain Japanese sentences for an advanced learner in English.
+Be very concise. 
 
-Be concise. Use bold, italic, underlined text, when appropriate for readability. 
+OUTPUT STRUCTURE
 
-INPUT
-Sentence: {{Subtitle}}
-Target word: {{Lemma}}
-Focus question: {{Question}}
+——**{{Lemma}}**
+Short translation. Maximum 2 sentences.
 
-OUTPUT STRUCTURE 
-
-——{{Lemma}}
-Short meaning(s) 
-
-——Im Satz
+——**In the sentence**
 Explain the meaning and usage of the target word {{Lemma}} in the sentence.
 
-——Grammatik/Struktur
-Explain only the structure and grammar directly related to {{Lemma}} in {{Subtitle}}
+——**Grammar / Structure**
+Explain only the structure and grammar that directly relates to {{Lemma}} in {{Subtitle}}.
 If {{Question}} exists, answer it explicitly.
 
-——Beispiele
+——**Examples**
 Provide 3–5 short Japanese example sentences using {{Lemma}}
-
-STYLE RULES
-    •   Short paragraphs
-    •   Examples > lengthy explanations
-    •   Focus on {{Lemma}} first
-    •   Assume reader is B1–B2+, do not explain basic grammar
-    •   Avoid repetition of beginner knowledge
-
-
+(do not include translations) 
